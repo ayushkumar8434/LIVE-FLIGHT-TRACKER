@@ -16,7 +16,7 @@ function searchFlight() {
 
   result.innerHTML = "Loading...";
 
-  fetch(`http://api.aviationstack.com/v1/flights?access_key=${API_KEY}&flight_iata=${flightNumber}`)
+  fetch(`fetch("https://api.allorigins.win/raw?url=http://api.aviationstack.com/v1/flights?access_key=${API_KEY}&flight_iata=${flightNumber}")`)
     .then(res => res.json())
     .then(data => {
 
