@@ -22,6 +22,8 @@ The objective of this project is to:
 
 ### ✈️ Aviationstack API
 
+live-flight-tracker.netlify.app
+
 - Provides real-time flight data
 - Used to fetch flight details such as airline, route, status, and departure time
 
